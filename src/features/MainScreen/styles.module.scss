@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px 80px;
+  padding: 20px;
+}
+.main_container {
+  color: white;
+  width: 480px;
+  font-size: large;
+}
+.vectary {
+  width: 360px;
+  height: 300px;
+}
+
+.color_text {
+  color: #61ecbc;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  padding: 20px 0;
+}

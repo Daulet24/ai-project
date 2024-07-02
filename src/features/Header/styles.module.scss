@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+}
+
+.logo {
+  padding: 0;
+}
+
+.NavLinks {
+  padding-top: 20px;
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    border-bottom: 2px solid #61ecbc;
+  }
+}

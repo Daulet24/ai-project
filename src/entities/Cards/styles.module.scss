@@ -1,0 +1,30 @@
+.cards {
+  display: block;
+  border-radius: 17px;
+  border: 3px solid var(--dark_mint, #0cb387);
+  background: rgba(217, 217, 217, 0.16);
+  backdrop-filter: blur(53.599998474121094px);
+  padding: 40px;
+  margin: 60px;
+  width: 280px;
+  height: 300px;
+
+  &__number {
+    color: #0cb387;
+    background: none;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+  }
+
+  &__paragraph {
+    color: #0cb387;
+    background: none;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

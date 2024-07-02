@@ -1,0 +1,20 @@
+.button {
+  border: #61ecbc;
+  background-color: #61ecbc;
+  width: 190px;
+  height: 40px;
+  border: 1px 0px 0px 0px;
+  font-size: medium;
+}
+.transparent {
+  color: white;
+  background: none !important;
+  border: 2px;
+}
+.about_container {
+  display: flex;
+  flex-direction: column;
+}
+.robot {
+  width: 300px;
+}
