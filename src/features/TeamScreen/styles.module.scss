@@ -8,7 +8,7 @@
   align-items: center;
   flex-direction: column;
   padding: 20px 60px;
-  margin: 0 60px;
+  margin: 0 40px;
 }
 .card__container {
   display: flex;
@@ -31,4 +31,13 @@
   justify-content: center;
   align-items: center;
   margin: 60px;
+}
+@media only screen and (max-width: 600px) {
+  .card__text a {
+    display: none;
+  }
+  .card__container {
+    display: flex;
+    flex-direction: column;
+  }
 }

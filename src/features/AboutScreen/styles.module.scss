@@ -22,3 +22,17 @@
     rgba(97, 236, 188, 0) 109.26% !important
   );
 }
+@media only screen and (max-width: 600px) {
+  .about {
+    display: block;
+  }
+  .about_container {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .robot {
+    width: 100%;
+    margin-top: 0;
+  }
+}

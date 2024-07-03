@@ -36,3 +36,29 @@
     width: 85%;
   }
 }
+@media only screen and (max-width: 600px) {
+  .tab {
+    display: block;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+
+    &__text {
+      text-align: center;
+      align-items: center;
+      gap: 20px;
+    }
+
+    &__number {
+      text-align: center;
+      align-items: center;
+      padding: 20px 0;
+    }
+
+    &__paragraph {
+      text-align: center;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+}
